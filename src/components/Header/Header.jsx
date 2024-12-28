@@ -1,11 +1,5 @@
-
-
 const Header = () => {
-    return (
-        <div>
-            this is header
-        </div>
-    );
+  return <div>this is header</div>;
 };
 
 export default Header;
