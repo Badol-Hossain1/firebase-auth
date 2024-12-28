@@ -1,7 +1,10 @@
+import { Link } from 'react-router';
+
 const Home = () => {
   return (
     <div>
-      <div>this is fkjsldjf home</div>
+      <Link to="/">home </Link>
+      <Link to="/login">Login </Link>
     </div>
   );
 };
